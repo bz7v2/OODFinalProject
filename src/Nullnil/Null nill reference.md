@@ -1,6 +1,6 @@
-#Null/nil references
-##Java
-###What we have in Java
+# Null/nil references
+## Java
+### What we have in Java
 In java, we have null reference. A variable is a reference to an object. A null value thus indicates an unset reference (i.e. a reference to nothing). You can see variables as containers(*), inside which you can put an object of a given type, when the variable is null , it means your container is empty.
 
 _**In Java Language Specification**:_
@@ -17,7 +17,7 @@ There are basically two instances where we may have a null problem.
 * We can catch the null exception
 
 
-##Swift
+## Swift
 In Swift, we have optional variables which are allowed to have nil reference. If a variable is't declared as
 an optional variable, it cannot have a nil reference and the compiler will show the error.
 
@@ -25,7 +25,7 @@ There are the same two instances where we may have a nil reference.
 1. nil is a valid response
 2. nil is not a valid response
 
-##How to handle nil
+## How to handle nil
 * Force or automatic unwrapping and use IF ELSE block to handle it.
 * Optional Binding: We can use "if let" to handle it. This is like if else in Java, the example code will show how to implement this.
 * We can use "guard" to handle nil. This is a very innovative unique way in Swift.
