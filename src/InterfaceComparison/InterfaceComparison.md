@@ -80,7 +80,7 @@ We can limit protocol adoption to class types (and not structures or enumeration
 
 
 ## Summary
-For swift, the protocol is like Java interface but it has more flexibility. The protocol can be conformed by struct, enumeration and class. They both have the ability to
-require instance methods but protocol can also require properties with a particular name and type as well as gettable and settable. In the swift, we cannot initial the value of static
-variable which java definitely can. There are a lot differences between java interface and swift protocol. Basically, swift portocol
-are like an advanced version of java interface. It has a lot of unique and kinda nice feature compared to java interface.
+For Swift, the protocol is like Java interface but it has more flexibility. The protocol can be conformed by struct, enumeration and class. They both have the ability to
+require instance methods but protocol can also require properties with a particular name and type as well as gettable and settable. In the Swift, we cannot initialize the value of static
+variables unlike Java. There are a lot differences between Java interface and Swift protocol. Basically, Swift protocols
+are like an advanced version of Java interfaces. Protocols have a lot of unique and nice features compared to Java interfaces.
