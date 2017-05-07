@@ -3,7 +3,7 @@
 ### Exception
 In Java, Exception is something happened during the execution of a program. An exception will disrupt the program and
 terminate it abnormally thus need to be handled.
-There are many different reasons for exception to arise. Maybe a user input an invalid data type, a file cannot be found
+There are many different reasons for exception to arise. Maybe a user inputs an invalid data type, a file cannot be found
 from the path or some hardware failure.
 ### Exception types
 In Java, we have three different types of exception.
@@ -13,7 +13,7 @@ In Java, we have three different types of exception.
 
 #### Checked exceptions
 A checked exception will occur at compile time. Checked exceptions cannot be ignored, the compiler will catch it
-during compile time and will let compiling fail if you don't handle them. Programmer should take care of there
+during compile time and will let compiling fail if you don't handle them. Programmer should take care of their
 exceptions.
 
 ##### List of some checked exceptions
@@ -43,5 +43,5 @@ The way to handle them are still **_Try, Catch and finally block_**. We could ha
 #### Error
 ![alt text](https://www.tutorialspoint.com/java/images/exceptions1.jpg)
 
-Errors are something unique. There are two subclasses from the Throwable class. One is Exception, the other is Error. They are beyond the control of users or programmers. They are ignored
+Errors are something unique. There are two subclasses from the Throwable class: Exception and Error. They are beyond the control of users or programmers. They are ignored
 in the codes because you can barely do anything about hardware failure like out of memory or network unavailable.
