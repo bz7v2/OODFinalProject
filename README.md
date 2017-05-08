@@ -47,12 +47,12 @@ Date: 4/17/2017
   * How does it work?
   * Garbage collection?
   * Automatic reference counting?
-* [Comparisons of references and values](src/ReferenceAndValueComparison/Comparisons\ of\ references\ and\ values.md)
+* [Comparisons of references and values](src/ReferenceAndValueComparison/Comparisons%20of%20references%20and%20values.md)
   * How are values compared? (i.e. comparing two strings)
-* [Null/nil references](src/Nullnil/Null\ nill\ reference.md)
+* [Null/nil references](src/Nullnil/Null%20nill%20reference.md)
   * Which does the language use? (null/nil/etc)
   * Does the language have features for handling null/nil references?
-* [Errors and exception handling](src/ErrorsExceptionHandling/Errors\ and\ exception\ handling.md)
+* [Errors and exception handling](src/ErrorsExceptionHandling/Errors%20and%20exception%20handling.md)
 
 -Bo Zhang
 * [Lambda expressions, closures, or functions as types](src/q15)
