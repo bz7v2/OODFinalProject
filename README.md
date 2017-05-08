@@ -42,12 +42,12 @@ Date: 4/17/2017
 * [Reflection](src/Reflection/Reflection.md)
   * What reflection abilities are supported?
   * How is reflection used?
-* [Memory management](src/MemoryManagement/Memory management.md)
+* [Memory management](src/MemoryManagement/Memory\ management.md)
   * How is it handled?
   * How does it work?
   * Garbage collection?
   * Automatic reference counting?
-* [Comparisons of references and values](src/ReferenceAndValueComparison/Comparisons of references and values.md)
+* [Comparisons of references and values](src/ReferenceAndValueComparison/Comparisons\ of\ references\ and\ values.md)
   * How are values compared? (i.e. comparing two strings)
 * [Null/nil references](src/Nullnil/Null nill reference.md)
   * Which does the language use? (null/nil/etc)
