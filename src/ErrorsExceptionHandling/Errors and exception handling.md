@@ -16,7 +16,7 @@ A checked exception will occur at compile time. Checked exceptions cannot be ign
 during compile time and will let compiling fail if you don't handle them. Programmer should take care of their
 exceptions.
 
-#####Example
+##### Example
 
 ```Java
 import java.io.*;
@@ -47,7 +47,7 @@ FileInputStream which is used for specifying the file path and name, throws File
 
 
 
-#####List of some checked exceptions
+##### List of some checked exceptions
 1. IOException
 2. SQLException
 3. DataAccessException
@@ -57,7 +57,7 @@ FileInputStream which is used for specifying the file path and name, throws File
 
 There are two ways to handle this. Add *__throws clause__* OR Add **_Try, Catch and finally block_**.
 
-#####Using throws
+##### Using throws
 ```Java
 import java.io.*;
 class Example {
@@ -76,7 +76,7 @@ class Example {
 }
 ```
 
-#####Using try and catch
+##### Using try and catch
 ```Java
 import java.io.*;
 class Example {
@@ -102,11 +102,11 @@ class Example {
    }
 }
 ```
-####Unchecked exceptions
+#### Unchecked exceptions
 An unchecked exceptions will not be verified by compiler. There usually arise because of bad programming.
 All unchecked exceptions are direct sub classes of RunTimeException class.
 
-#####Example
+##### Example
 Here is an *__ArrayIndexOutOfBoundsException__* example
 
 ```Java
@@ -124,7 +124,7 @@ class Example {
 ```
 This code would also compile successfully since ArrayIndexOutOfBoundsException is also an unchecked exception.
 
-#####Using try and catch
+##### Using try and catch
 
 ```Java
 class Example {
@@ -141,7 +141,7 @@ class Example {
 }
 ```
 
-#####List of some unchecked exceptions
+##### List of some unchecked exceptions
 1. NullPointerException
 2. ArrayIndexOutOfBound
 3. IllegalArgumentException
@@ -177,14 +177,14 @@ Throwing an error lets you indicate that something unexpected happened and the n
 throw ExampleError.Error2(someUsefulInformation: 3)
 ```
 
-###Handling Errors
+### Handling Errors
 There are 4 ways in Swift to handle errors.
 1. We can propagate the error from a function to the scope from which it is called.
 2. wrapping the part which may throw errors with do-catch block.
 3. handle the error as an optional value
 4. assert that the error will not occur.
 
-####Propagating using Throwing
+#### Propagating using Throwing
 A function marked with throws is called a throwing function. If the function specifies a return type, you write the throws keyword before the return arrow (->).
 A throwing function propagates errors that are thrown inside of it to the scope from which it’s called.
 
@@ -195,7 +195,7 @@ func cannotThrowErrors() -> String
 ```
 
 
-####Handling errors by Do-Catch
+#### Handling errors by Do-Catch
 We use a do-catch statement to handle errors by running a block of code. If an error is thrown by the code in the do clause, it is matched against the catch clauses to determine which one of them can handle the error.
 
 ```Swfit
@@ -209,12 +209,12 @@ do {
 }
 ```
 
-####Handling errors as an optional value
+#### Handling errors as an optional value
 You use try? to handle an error by converting it to an optional value. If an error is thrown while evaluating the try? expression, the value of the expression is nil.
 
 The below examples are doing the same thing.
 
-#####Example1
+##### Example1
 ```Swift
 let x = try? someThrowingFunction()
 ```
@@ -229,7 +229,7 @@ do {
 ```
 The value of x will be nil if an exception occurs
 
-####assert that an error will not occur (Disabling Error Propagation)
+#### Assert that an error will not occur (Disabling Error Propagation)
 
 Sometimes we know a statement may cause an error but we know for sure it won't, we can use try! to do an assertion.
 
@@ -242,7 +242,7 @@ but we also know the images are inside the resources folder which indeed has the
 
 If any errors do occur during the runtime, we will get a runtime error and the application will be ceased.
 
-### cleanup actions
+### Cleanup actions
 In Swift, we can use _**defer**_ to execute a set of statements just before code leaves the current scope. This is like
 the finally block in Java where we may want to close the stream whether the code executed smoothly or an error was thrown.
 
