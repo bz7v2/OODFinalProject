@@ -21,7 +21,7 @@ Remember to use word _extend_ for extending an interface and _implement_ for imp
     2. A class that implements an interface must implement all the methods declared in the interface.
     3. An interface name can be used anywhere a type can be used.
 
-### See a simple Java examples here (src/InterfaceComparison/InterfaceExample.java)
+### [See a simple Java examples here](InterfaceExample.java)
 
 ## Swift
 ### Swift support Protocols
@@ -80,7 +80,7 @@ A protocol can inherit one or more other protocols and can add further requireme
 #### Class-only Protocol
 We can limit protocol adoption to class types (and not structures or enumerations) by adding the class keyword to a protocol’s inheritance list. The class keyword must always appear first in a protocol’s inheritance list, before any inherited protocols:
 
-### See a simple Swift example here
+### [See a simple Swift example here](../../SwiftCodeForFinalProject/ProtocalExample.swift)
 
 ## Summary
 For Swift, the protocol is like Java interface but it has more flexibility. The protocol can be conformed by struct, enumeration and class. They both have the ability to

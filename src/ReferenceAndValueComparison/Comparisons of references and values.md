@@ -4,7 +4,7 @@ In Java, we use "==" to compare value types and reference equality (whether they
 
 We will use "*equals()*" to compare the true value (whether they are logical equal to each other).
 
-### Java example here
+### [See a simple Java examples here](ReferenceValueComparison.java)
 
 
 ## Swift
@@ -24,4 +24,4 @@ If we want to compare the reference of objects, swift has operators "===" and "!
 
 Pay attention: String in swfit is a **_value_** type, not like java it is a reference type. We can't compare them using "===".
 
-### Swift example here
+### [See a simple Swift example here](../../SwiftCodeForFinalProject/CompareReferenceAndValue.swift)
