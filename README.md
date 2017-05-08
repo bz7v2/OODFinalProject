@@ -65,6 +65,6 @@ Date: 4/17/2017
   * Does the language support procedural programming?
 * [Functional programming](src/q19.md)
   * Does the language support functional programming?
-* [Multithreading](src/q15.md)
+* [Multithreading](src/q20.md)
   * Threads or thread-like abilities
   * How is multitasking accomplished?
