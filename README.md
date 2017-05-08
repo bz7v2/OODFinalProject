@@ -55,16 +55,16 @@ Date: 4/17/2017
 * [Errors and exception handling](src/ErrorsExceptionHandling/Errors%20and%20exception%20handling.md)
 
 -Bo Zhang
-* [Lambda expressions, closures, or functions as types](src/q15)
-* [Implementation of listeners and event handlers](src/q16)
-* [Singleton](src/q17)
+* [Lambda expressions, closures, or functions as types](src/q15.md)
+* [Implementation of listeners and event handlers](src/q16.md)
+* [Singleton](src/q17.md)
   * How is a singleton implemented?
   * Can it be made thread-safe?
   * Can the singleton instance be lazily instantiated?
-* [Procedural programming](src/q18)
+* [Procedural programming](src/q18.md)
   * Does the language support procedural programming?
-* [Functional programming](src/q19)
+* [Functional programming](src/q19.md)
   * Does the language support functional programming?
-* [Multithreading](src/q15)
+* [Multithreading](src/q15.md)
   * Threads or thread-like abilities
   * How is multitasking accomplished?
