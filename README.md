@@ -42,7 +42,7 @@ Date: 4/17/2017
 * [Reflection](src/Reflection/Reflection.md)
   * What reflection abilities are supported?
   * How is reflection used?
-* [Memory management](src/MemoryManagement/Memory\ management.md)
+* [Memory management](src/MemoryManagement/Memory%20management.md)
   * How is it handled?
   * How does it work?
   * Garbage collection?
