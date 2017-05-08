@@ -16,6 +16,7 @@ There are basically two instances where we may have a null problem.
  represent null collection or an instance with some default value to represent a null object for that class.
 * We can catch the null exception
 
+###See a simple Java example here
 
 ## Swift
 In Swift, we have optional variables which are allowed to have nil reference. If a variable is't declared as
@@ -31,3 +32,5 @@ There are the same two instances where we may have a nil reference.
 * We can use "guard" to handle nil. This is a very innovative unique way in Swift.
 * Null Object Pattern: We can have some default instance of the class to represent nil and let other part to handle it.
 * We can also do and catch the exception like Java and handle nil. This won't be show in code example.
+
+###Swfit example goes here

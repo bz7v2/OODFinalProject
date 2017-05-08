@@ -21,6 +21,8 @@ Remember to use word _extend_ for extending an interface and _implement_ for imp
     2. A class that implements an interface must implement all the methods declared in the interface.
     3. An interface name can be used anywhere a type can be used.
 
+###See a simple Java examples here (src/InterfaceComparison/InterfaceExample.java)
+
 ## Swift
 ### Swift support Protocols
 In swift, the equivalent of java Interface is protocols.A protocol defines a blueprint of methods, properties, and other requirements that suit a particular task or piece of functionality.
@@ -78,9 +80,11 @@ A protocol can inherit one or more other protocols and can add further requireme
 #### Class-only Protocol
 We can limit protocol adoption to class types (and not structures or enumerations) by adding the class keyword to a protocol’s inheritance list. The class keyword must always appear first in a protocol’s inheritance list, before any inherited protocols:
 
+###See a simple Swift example here
 
 ## Summary
 For Swift, the protocol is like Java interface but it has more flexibility. The protocol can be conformed by struct, enumeration and class. They both have the ability to
 require instance methods but protocol can also require properties with a particular name and type as well as gettable and settable. In the Swift, we cannot initialize the value of static
 variables unlike Java. There are a lot differences between Java interface and Swift protocol. Basically, Swift protocols
 are like an advanced version of Java interfaces. Protocols have a lot of unique and nice features compared to Java interfaces.
+
