@@ -7,7 +7,6 @@ Date: 4/17/2017
 
 ### Comparison Criteria
 
--William Morrison
 * [Language purpose/genesis](src/purpose.md)
   * Why was the language created?
   * What problems was the language trying to address?
@@ -32,8 +31,6 @@ Date: 4/17/2017
   * Getters and setters...write your own or built in?
   * Backing variables?
   * Computed properties?
-  
--Xinjian Yao
 * [Interfaces / protocols](src/InterfaceComparison/InterfaceComparison.md)
   * What does the language support?
   * What abilities does it have?
@@ -53,8 +50,6 @@ Date: 4/17/2017
   * Which does the language use? (null/nil/etc)
   * Does the language have features for handling null/nil references?
 * [Errors and exception handling](src/ErrorsExceptionHandling/Errors%20and%20exception%20handling.md)
-
--Bo Zhang
 * [Lambda expressions, closures, or functions as types](src/q15.md)
 * [Implementation of listeners and event handlers](src/q16.md)
 * [Singleton](src/q17.md)
