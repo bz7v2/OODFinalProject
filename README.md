@@ -49,10 +49,10 @@ Date: 4/17/2017
   * Automatic reference counting?
 * [Comparisons of references and values](src/ReferenceAndValueComparison/Comparisons\ of\ references\ and\ values.md)
   * How are values compared? (i.e. comparing two strings)
-* [Null/nil references](src/Nullnil/Null nill reference.md)
+* [Null/nil references](src/Nullnil/Null\ nill\ reference.md)
   * Which does the language use? (null/nil/etc)
   * Does the language have features for handling null/nil references?
-* [Errors and exception handling](src/ErrorsExceptionHandling/Errors and exception handling.md)
+* [Errors and exception handling](src/ErrorsExceptionHandling/Errors\ and\ exception\ handling.md)
 
 -Bo Zhang
 * [Lambda expressions, closures, or functions as types](src/q15)
