@@ -1,4 +1,4 @@
-#Reflection
+# Reflection
 ##Java
 Java Reflection makes it possible to inspect classes, interfaces, fields and methods at runtime, without knowing the names of the classes, methods etc. at compile time. It is also possible to instantiate new objects, invoke methods and get/set field values using reflection.
 Reflection is commonly used by programs which require the ability to examine or modify the runtime behavior of applications running in the Java virtual machine. This is a relatively advanced feature and should be used only by developers who have a strong grasp of the fundamentals of the language. With that caveat in mind, reflection is a powerful technique and can enable applications to perform operations which would otherwise be impossible.
@@ -15,7 +15,7 @@ Using reflection, we can inspect Java classes at runtime. Here is the list of wh
 * Fields
 * Annotations
 
-####Class Name
+#### Class Name
 Before we do anything, we need to obtain the Java.lang.Class Object. All types in Java including the primitive types (int, long, float etc.) including arrays have an associated Class object.
 
 ```Java
