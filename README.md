@@ -8,7 +8,7 @@ Date: 4/17/2017
 ### Comparison Criteria
 
 -William Morrison
-* [src/purpose.md](Language purpose/genesis)
+* [Language purpose/genesis](src/purpose.md)
   * Why was the language created?
   * What problems was the language trying to address?
   * Is the language a reaction to a previous language or a replacement for another language?
